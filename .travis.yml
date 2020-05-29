@@ -18,9 +18,9 @@ deploy:
   access_key_id: $ACCESSKEYID
   secret_access_key: $SECRETACCESSKEY
   region: "ap-south-1"
-  app: "saran"
-  env: "Saran-env"
+  app: "sarans"
+  env: "Sarans-env"
   bucket_name: "elasticbeanstalk-ap-south-1-116072917138"
-  bucket_path: "saran"
+  bucket_path: "sarans"
   on:
     branch: master
