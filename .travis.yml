@@ -17,6 +17,6 @@ deploy:
   bucket_path: "demo"
   on:
     branch: master
-  access_key_id: "AKIARWBT4FCJLMGDT2WB "
+  access_key_id: "$AK"
   secret_access_key:
-    secure: "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"
+    secure: "$SC"
