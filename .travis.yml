@@ -7,3 +7,16 @@ before_install:
 
 script:
   - docker run -e CI=true saranonearth/demo npm run test
+
+deploy:
+  provider: elasticbeanstalk
+  region: ap-south-1
+  app: "demo"
+  env: "Demo-env"
+  bucket_name: "elasticbeanstalk-ap-south-1-116072917138"
+  bucket_path: "demo"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: "$AWS_SCRET_KEY"
