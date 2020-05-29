@@ -17,6 +17,6 @@ deploy:
   bucket_path: "demo"
   on:
     branch: master
-  access_key_id: $AWS_ACCESS_KEY
+  access_key_id: $AWS_K2
   secret_access_key:
-    secure: "$AWS_SCRET_KEY"
+    secure: "$AWS_K1"
