@@ -18,9 +18,9 @@ deploy:
   access_key_id: $ACCESSKEYID
   secret_access_key: $SECRETACCESSKEY
   region: "ap-south-1"
-  app: "demo"
-  env: "Demo-env"
+  app: "docker"
+  env: "Docker-env"
   bucket_name: "elasticbeanstalk-ap-south-1-116072917138"
-  bucket_path: "demo"
+  bucket_path: "docker"
   on:
     branch: master
