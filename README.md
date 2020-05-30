@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.org/saranonearth/demo.svg?branch=master)](https://travis-ci.org/saranonearth/demo)
 ## cicd-travis-aws-docker
 
+How to Run?
+```
+docker compose up --build
+```
 
 
 travis.yaml
